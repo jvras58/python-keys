@@ -1,6 +1,8 @@
 CONFIG = {
     "hit_velocity_threshold": 1000,
     "key_cooldown": 0.3,
+    "volume": 0.5,
+    "sensitivity": 1000,
     "keys": [
         {
             "name": "C4",
@@ -52,7 +54,6 @@ CONFIG = {
             "type": "white",
         },
     ],
-    # Quando True, o app entra no modo de calibração (usar apenas durante ajuste).
     "calibration_mode": False,
     "camera_index": 0,
     "hands_config": {
@@ -61,4 +62,6 @@ CONFIG = {
         "min_tracking_confidence": 0.7,
     },
     "fps": 60,
+    "recording_mode": False,
+    "playback_mode": False,
 }

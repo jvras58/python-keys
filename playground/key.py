@@ -4,6 +4,8 @@ import cv2
 import numpy as np
 from pygame import mixer
 
+from config.config import CONFIG
+
 logger = logging.getLogger(__name__)
 
 
@@ -27,6 +29,7 @@ class Key:
         self.last_hit = 0.0
         try:
             self.sound = mixer.Sound(sound_path)
+            self.sound.set_volume(CONFIG["volume"])
         except Exception as e:
             logger.error(f"Failed to load sound {sound_path}: {e}")
             raise

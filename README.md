@@ -14,6 +14,8 @@ Este repositório contém uma versão experimental (em `playground/`) de um pian
 - Suporte a múltiplas teclas ao mesmo tempo (acordes)
 - Calibração interativa para mapear teclas na imagem da câmera
 - Estrutura simples para experimentar e estender
+- Gravação e reprodução de sequências de notas
+- Interface gráfica para ajustar volume e sensibilidade
 
 ## 📋 Pré-requisitos
 
@@ -72,6 +74,10 @@ Ao iniciar, posicione a webcam de modo que a área das teclas esteja visível.
 - Toque nas regiões da imagem para tocar as notas (dependendo da implementação do arquivo em `playground/`).
 
 Dica: siga as instruções exibidas na janela do programa durante a calibração.
+
+- Pressione 'g' para iniciar/parar gravação
+- Pressione 'p' para iniciar/parar reprodução
+- Pressione 's' para abrir menu de configurações
 
 ## 🧭 Estrutura do projeto
 
